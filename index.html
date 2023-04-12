@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="form-input">
+    <div class="status active">Nhập</div>
+    <div class="status">Xác nhận</div>
+    <div class="status">Gửi</div>
+
+    <div class="input-section">
+      <input type="text" id="name" placeholder="Họ và tên">
+      <input type="email" id="email" placeholder="Địa chỉ email">
+      <button id="submit-input">Gửi</button>
+    </div>
+
+    <div class="confirm-section" style="display: none">
+      <p>Họ và tên: <span id="confirm-name"></span></p>
+      <p>Địa chỉ email: <span id="confirm-email"></span></p>
+      <button id="edit-input">Chỉnh sửa</button>
+      <button id="confirm-input">Xác nhận</button>
+    </div>
+
+    <div class="submit-section" style="display: none">
+      <p>Thông tin đã nhập đã được hệ thống lưu lại.</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

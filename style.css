@@ -1,0 +1,72 @@
+.form-input {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.status {
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #999;
+}
+
+.status.active {
+  color: #4caf50;
+}
+
+.input-section input[type='text'],
+.input-section input[type='email'],
+.input-section button {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.input-section button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #3e8e41;
+}
+
+.confirm-section,
+.submit-section {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.confirm-section p,
+.submit-section p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.confirm-section button,
+.submit-section button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.confirm-section button:hover,
+.submit-section button:hover {
+  background-color: #3e8e41;
+}
